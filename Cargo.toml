@@ -7,7 +7,31 @@ rust-version = "1.56.1" # https://github.com/foresterre/cargo-msrv
 description = "A library providiving `OuterAttribute` that implements `syn::parse::Parse` trait."
 documentation = "https://docs.rs/outer_attribute"
 readme = "README.md"
-repository = "https://github.com/JohnScience/no_mangle_pub_export_c_fn"
+repository = "https://github.com/JohnScience/outer_attribute"
+license = "MIT OR Apache-2.0"
+# license-file | not needed
+keywords = ["artifact", "parsing"]
+categories = ["development-tools::build-utils", "development-tools::ffi"]
+# workspace | not needed
+# build | not needed
+# links | not needed
+# exclude | not needed
+include = [
+    "/Cargo.toml",
+    "/LICENSE_APACHE",
+    "/LICENSE_MIT",
+    "/README.md",
+    "/src/lib.rs",
+    "/tests/**",
+]
+# publish | not needed
+# metadata | not needed
+# default-run | not needed
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+# resolver | not needed
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
