@@ -21,7 +21,7 @@ fn main() {
 ```
 
 The default feature is `different_layout` and opting for `same_layout` instead can be considered when
-there is functionality that is available on [`syn::Attribute`] but not on either `OuterAttribute`.
+there is some functionality that is available on [`syn::Attribute`] but not on either `OuterAttribute`.
 
 # License
 
