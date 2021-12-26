@@ -1,0 +1,22 @@
+[package]
+name = "outer_attribute"
+version = "0.1.0"
+authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
+edition = "2021"
+rust-version = "1.56.1" # https://github.com/foresterre/cargo-msrv
+description = "A library providiving `OuterAttribute` that implements `syn::parse::Parse` trait."
+documentation = "https://docs.rs/outer_attribute"
+readme = "README.md"
+repository = "https://github.com/JohnScience/no_mangle_pub_export_c_fn"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { verstion = "1.0.84", features=["parsing"] }
+proc-macro2 = "1.0.34"
+
+[features]
+# The features are mutually exclusive because their use in combination is counterproductive
+same_layout = []
+different_layout = []
+default = ["different_layout"]
