@@ -1,6 +1,6 @@
 [package]
 name = "outer_attribute"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
 edition = "2021"
 rust-version = "1.56.1" # https://github.com/foresterre/cargo-msrv
@@ -10,8 +10,8 @@ readme = "README.md"
 repository = "https://github.com/JohnScience/outer_attribute"
 license = "MIT OR Apache-2.0"
 # license-file | not needed
-keywords = ["artifact", "parsing"]
-categories = ["development-tools::build-utils", "development-tools::ffi"]
+keywords = ["parsing", "syn", "outer", "attribute"]
+categories = ["development-tools::procedural-macro-helpers"]
 # workspace | not needed
 # build | not needed
 # links | not needed
